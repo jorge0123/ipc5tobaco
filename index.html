@@ -1,28 +1,40 @@
 <html>
 <head>
-  <title>Hello Word</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+<title>validar si la contraseña y la repeticion de la contraseña son iguales</title>
+<script>
+function comprobarcClave(){
+    clave1 = document.f1.clave1.value
+    clave2 = document.f1.clave2.value
+
+    if (clave1 == "admin"&& clave == "consejo "){
+     alert("Los Datos Coinciden...\n Bienvenido");
+     var href = "index.html";
+     window.location=href;
+ }
+
+ else{
+  alert("Las dos claves son distintas...\nIntentelo nuevamente.")
+  var href ="dos.htm";
+       };
+ {
+</script>
 </head>
-<body style="background-color:black;">
-  <div style="color:#00F7E8;">Jorge Aldair</div>
-  <p><a href="js-01.html"onclick="alert(Hi); return false;"> click Me</a></p>
-  <div style="color:#00F7E8;">Marroquin Sanchez</div>
-  </html>
-  <html>
-  <head>
-    <title>5to </title>
-  </head>
-  <body>
-    <div style="color:#00F7E8;">instituto profesional de computacion</div>
-    <script type="text/javascrip"></script>
+
+<body>
+<FONT FACE="<h1>validar si la contraseña y la repeticion de la contraseña son iguales</h1>"><h1>validar si la contraseña y la repeticion de la contraseña son iguales</h1>
+</FONT>
+
+<br>
+Escribe una supuesta contraseña dos veces, una en cada campo,y pula el boton. Javascrip te dira si las dos son iguales.
+
+<br>
+<form action= "" name="f1">
+lenel perez : <input type="password" name="clave1" size="20">
+<br>
+Repite la contraseña: <input type="password" name="clave2" size="20">
+<br>
+<input type="button" value="comprobar si son iguales" onClick="comprobarClave()" >
    
-       <div style="color:#00F7E8;">5to bachiller en computacion</div>
-    </script>
-    <noscript>
-      Your browser doesn´t  suport or has disabled
-      JavaScript.
-    </noscript>
-    <div style="color:#00F7E8;">seccion "A"</div>
-    <img src="dinosaurio.jpg">
-  </body>
-  </html>
+   </form>
+</body>
+</html>
